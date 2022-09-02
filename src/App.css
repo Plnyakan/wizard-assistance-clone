@@ -1,12 +1,96 @@
-.App {
+.container {
+
+}
+
+.nav {
+
+  position:sticky;
+  top: 0;
+  z-index: 1020;
+  background-color: #007bff;
+  width: 100%;
+  padding: 8px 16px;
+  font-size: 16px;
+  color: white;
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.container-width {
+  margin: auto;
+  max-width: 720px;
+}
+
+.text-center{
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  margin-left: 8px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.bash {
+  background-color: black;
+  color: white;
+  font-size: medium;
+  font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+  display: inline-block;
+  display: -moz-inline-stack;
+  zoom: 1;
+  *display: inline;
+  border-style: solid;
+  border-color: transparent;
+  width: 96%;
+}
+
+
+/* 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +119,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
